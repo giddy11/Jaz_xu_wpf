@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyFirstWpfProgram", "MyFirs
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LineInDefaultSystem", "LineInDefaultSystem\LineInDefaultSystem.csproj", "{14BAA725-845D-47FA-9C74-00B231A0455D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LineInCustomSystem", "LineInCustomSystem\LineInCustomSystem.csproj", "{C832CD5C-2AA2-49E1-9762-F9F039775F0E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{14BAA725-845D-47FA-9C74-00B231A0455D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{14BAA725-845D-47FA-9C74-00B231A0455D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{14BAA725-845D-47FA-9C74-00B231A0455D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C832CD5C-2AA2-49E1-9762-F9F039775F0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C832CD5C-2AA2-49E1-9762-F9F039775F0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C832CD5C-2AA2-49E1-9762-F9F039775F0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C832CD5C-2AA2-49E1-9762-F9F039775F0E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

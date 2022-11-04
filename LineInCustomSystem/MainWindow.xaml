@@ -5,8 +5,25 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:LineInCustomSystem"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Line In Custom System" Height="240" Width="220">
     <Grid>
+        <Border BorderBrush="Black" BorderThickness="1" Height="200" Width="200">
+            <Canvas Height="200" Width="200">
+                <Canvas.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform ScaleY="-1"/>
+                        <TranslateTransform Y="200"/>
+                    </TransformGroup>
+                </Canvas.RenderTransform>
+                <Line X1="0" Y1="0"
+                  X2="100" Y2="100"
+                  Stroke="Black"
+                  StrokeThickness="2"/>
 
+                <Button Canvas.Top="50" Canvas.Left="80" FontSize="15" Name="label1" Content="My Button" Foreground="Red" />
+
+                <TextBlock Canvas.Top="120" Canvas.Left="20" Foreground="Blue" FontSize="12pt" Text="My Text Block" FontWeight="Bold" />
+            </Canvas>
+        </Border>
     </Grid>
 </Window>
