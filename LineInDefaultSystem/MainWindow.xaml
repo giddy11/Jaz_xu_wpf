@@ -5,8 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:LineInDefaultSystem"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Line In Default System" Height="450" Width="800">
     <Grid>
-
+        <Canvas Height="300" Width="300">
+            <Line X1="0" Y1="0"
+                  X2="100" Y2="100"
+                  Stroke="Black"
+                  StrokeThickness="2"/>
+        </Canvas>
     </Grid>
 </Window>
