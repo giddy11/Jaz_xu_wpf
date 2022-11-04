@@ -20,9 +20,17 @@
                   Stroke="Black"
                   StrokeThickness="2"/>
 
-                <Button Canvas.Top="50" Canvas.Left="80" FontSize="15" Name="label1" Content="My Button" Foreground="Red" />
+                <Button Canvas.Top="50" Canvas.Left="80" FontSize="15" Name="label1" Content="My Button" Foreground="Red">
+                    <Button.RenderTransform>
+                        <ScaleTransform ScaleX="1" ScaleY="-1"/>
+                    </Button.RenderTransform>
+                </Button>
 
-                <TextBlock Canvas.Top="120" Canvas.Left="20" Foreground="Blue" FontSize="12pt" Text="My Text Block" FontWeight="Bold" />
+                <TextBlock Canvas.Top="120" Canvas.Left="20" Foreground="Blue" FontSize="12pt" Text="My Text Block" FontWeight="Bold">
+                    <TextBlock.RenderTransform>
+                        <ScaleTransform ScaleY="-1"/>
+                    </TextBlock.RenderTransform>
+                </TextBlock>
             </Canvas>
         </Border>
     </Grid>
