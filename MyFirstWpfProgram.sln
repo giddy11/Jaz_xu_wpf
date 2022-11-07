@@ -13,9 +13,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ScaleInCustomSystem", "Scal
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chart2DCoordinateSystem", "Chart2DCoordinateSystem\Chart2DCoordinateSystem.csproj", "{BFE9FE78-6C9A-40A2-BBC0-B15D2E86B60F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphicsBasics", "GraphicsBasics\GraphicsBasics.csproj", "{1192DC0C-CD91-4391-98AE-056F944C714A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GraphicsBasics", "GraphicsBasics\GraphicsBasics.csproj", "{1192DC0C-CD91-4391-98AE-056F944C714A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LineDashStyles", "LineDashStyles\LineDashStyles.csproj", "{46BA2CDB-7D5A-4E1E-BAAB-1542908B733B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LineDashStyles", "LineDashStyles\LineDashStyles.csproj", "{46BA2CDB-7D5A-4E1E-BAAB-1542908B733B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polylines", "Polylines\Polylines.csproj", "{8FC5D067-C828-48A3-8F12-07F5BA28868F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{46BA2CDB-7D5A-4E1E-BAAB-1542908B733B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{46BA2CDB-7D5A-4E1E-BAAB-1542908B733B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{46BA2CDB-7D5A-4E1E-BAAB-1542908B733B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FC5D067-C828-48A3-8F12-07F5BA28868F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FC5D067-C828-48A3-8F12-07F5BA28868F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FC5D067-C828-48A3-8F12-07F5BA28868F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FC5D067-C828-48A3-8F12-07F5BA28868F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
