@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:LineInDefaultSystem"
         mc:Ignorable="d"
-        Title="Line In Default System" Height="450" Width="800">
+        Title="Line In Default System" Height="300" Width="300">
     <Grid>
         <Canvas Height="300" Width="300">
             <Line X1="0" Y1="0"
