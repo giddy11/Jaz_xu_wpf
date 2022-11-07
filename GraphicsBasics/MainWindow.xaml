@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:GraphicsBasics"
         mc:Ignorable="d"
-        Title="ResizableCanvas" Height="420" Width="360">
+        Title="ResizableCanvas" Height="420" Width="360" MinHeight="364" MinWidth="224">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="*"/>
